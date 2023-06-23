@@ -5,7 +5,9 @@ This is my template to Node.js + Express + Typescript feel free to use it and co
 <br>
 # Pre installed dependencies
 
-* dotenv - For enviroment files ( ⚠️ Do not forget to put .env and .env.development in .gitignore ⚠️ )
+* dotenv - For environment files ( ⚠️ Do not forget to put .env and .env.development in .gitignore ⚠️ )
+
+* dotenv-cli - To change the environment
 
 * eslint and prettier - For coding style
 
@@ -13,6 +15,27 @@ This is my template to Node.js + Express + Typescript feel free to use it and co
 
 <br>
 
+# Commands
+
+### To install just:
+<br>
+<pre>npm install</pre>
+
+### To build:
+<br>
+<pre>npm run build</pre>
+
+### To start:
+<br>
+<pre>npm run start</pre>
+
+### To dev:
+<br>
+<pre>npm run dev</pre>
+
+<br>
+
 # Conclusion
 
-This repository was made to be a simple start for express + typescript app .
+This code was made with ❤️ and ☕ by igorfloresdev.
+
