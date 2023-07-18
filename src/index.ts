@@ -12,6 +12,7 @@ const port = process.env.PORT
 const app = express()
 
 app.use(cors())
+app.disable('x-powered-by')
 
 routes(app)
 
