@@ -7,11 +7,11 @@ dotenv.config({
   path: process.env.NODE_ENV === 'development' ? '.env.development' : '.env',
 })
 
-app.use(cors())
-
 const port = process.env.PORT
 
 const app = express()
+
+app.use(cors())
 
 routes(app)
 
