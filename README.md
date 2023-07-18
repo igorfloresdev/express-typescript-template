@@ -7,8 +7,6 @@ This is my template to Node.js + Express + Typescript feel free to use it and co
 
 * dotenv - For environment files ( ⚠️ Do not forget to put .env and .env.development in .gitignore ⚠️ )
 
-* dotenv-cli - To change the environment
-
 * eslint and prettier - For coding style
 
 * rimraf - To delete dist folder before build
